@@ -157,8 +157,8 @@ namespace SpartaDungeon
                 {
                     if (itemData[0] == "W2")
                     {
-                        Core.PlaySFX(Define.SOUNDS_PATH + "/ShopTrade.wav");
-                        Core.SetSceneDialog("김영호 튜터", "고맙네");
+                        Core.PlaySFX(Define.SOUNDS_PATH + "/TILBuy.wav");
+                        Core.SetSceneDialog("장윤서 매니저", "오늘 TIL 작성 하셨나요?");
                     }
                     else
                     {
